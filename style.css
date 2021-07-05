@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+
+    background-image: url(https://miro.medium.com/max/1600/0*K2WLMTExLyida7OR.gif);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sect{
+    top: 38%; left: 10%;
+        align-content: center;
+        position: relative;
+}
+
+.sect .card {
+   padding: 40px 39px 40px 39px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background:  linear-gradient(to right, #a4bfeb, #8ca6cf,#7596c9, #678cc7, #5c82bf);
+  transition: 0.3s;
+  width: 50%;
+  min-height: 12vh; max-height: 25vh;
+  border-radius: 10px;
+  color: black;
+}
+
+.sect .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);   
+    background-color:  linear-gradient( #5c82bf, #678cc7 , #7596c9 , #8ca6cf, #a4bfeb );
+    color: white;
+    font-weight: 600;
+    transform: scale(1.05);
+
+}
+
+.sect .card .container {
+  padding: 2px 6px;
+}
+
